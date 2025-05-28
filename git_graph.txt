@@ -1,0 +1,59 @@
+*   0a2e8f9 (HEAD -> develop, origin/develop) Release v4.0.0
+|\  
+| | *   2565f6d (tag: v4.0.0, origin/main, origin/HEAD, main) Release v4.0.0
+| | |\  
+| | |/  
+| |/|   
+| * | cdbd176 Final Push for Release v4.0.0
+| * | 250a8be more small changes
+| * | 931cd39 Normalize line endings using .gitattributes
+| * | 8b9174e Made some small tweaks before release
+|/ /  
+* | 5740510 minor updates
+| *   bf340ad (tag: v3.0.0) Weekend Development is Over
+| |\  
+| |/  
+|/|   
+* | da0f130 GitSrcCtrl.md is looking pretty good. Meed to run through the commands to look for missing info or steps, but its really clean. Cheatsheet has not been verified at all, definetly review
+* | c2b04e5 Added resoruces to dev channel
+* | 92fb7de updated git graph txt file to use everythin referenced from main branch
+* | af0ac87 Added command history list of relevant commands
+* |   d7f6019 Merge hotfix 2 into dev, trying not to remove secret message
+|\ \  
+* | | dd8974d added secret message to dev branch
+* | |   4da3026 Although Identical, I want to pull deveopment from main again, since we did have an official release
+|\ \ \  
+| | | * c3a655d Merge hotfix 2 into main
+| | |/| 
+| |/|/  
+| | * fde973a (origin/hotfixes, hotfixes) added 2nd hotfix
+| | *   cce8b26 Merge main into hotfixes to sync with latest production changes
+| | |\  
+| | |/  
+| |/|   
+| * |   cb0f37b (tag: v2.0) Merging develop with main
+| |\ \  
+| |/ /  
+|/| /   
+| |/    
+* |   4206e0a resolved merge conflicts, all featuers merged with develop
+|\ \  
+| * | 9f34ebb (origin/feature-hidden_cost_of_merge, feature-hidden_cost_of_merge) Added feature about merging while preserving history. this branch DOES include hotfix
+* | |   97284eb Merge branch 'features-merge_vs_pull_vs_rebase' into develop
+|\ \ \  
+| |/ /  
+|/| |   
+| * | dc7d5b7 (origin/features-merge_vs_pull_vs_rebase, features-merge_vs_pull_vs_rebase) Updated table with pull details
+| * | 51187b7 Added initial table explaining merge vs pull vs rebase
+* | |   f05ca6b Merge branch 'hotfixes' into develop
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * c5168bd (tag: v1.1) Severe bug fixed, hotfix
+* | 7db3989 added hotfix flow
+* | 149208f Added Src PDF
+* | 32609fc Modified md file
+* | 103b244 Commiting md file to dev branch
+|/  
+* 970cc8a (tag: v1.0) Added git ignore, pushing to main for first time

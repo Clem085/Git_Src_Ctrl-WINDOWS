@@ -1,0 +1,4 @@
+This file is meant to represent a hotfix. 
+Note: Changes from develop branch will NOT show up in this hotfix branch, as this is branched from main
+
+--- FIXED BUG ---

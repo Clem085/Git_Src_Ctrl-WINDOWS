@@ -1,0 +1,165 @@
+# This file contains the history of commands executed in the terminal. 
+# The commands included have to do with my latest Repository, Git_Src_Ctrl.
+# The commands are related to Git operations, including creating branches, merging, pushing, and pulling changes.
+: 1746726505:0;mkdir ./Git_Source_Control
+: 1746726513:0;cd ./Git_Source_Control
+: 1746726603:0;git init
+: 1746726764:0;cd ../
+: 1746726778:0;rm -r ./Git_Source_Control
+: 1746726779:0;ls
+: 1746726801:0;mkdir ./GitSrcCtrl
+: 1746726817:0;cd ./GitSrcCtrl
+: 1746726827:0;git init
+: 1746726860:0;git clone git@github.com:Clem085/Git_Src_Ctrl.git ~/GitSrcCtrl
+: 1746726902:0;rm -r ~/GitSrcCtrl
+: 1746726904:0;cd ../
+: 1746726914:0;git clone git@github.com:Clem085/Git_Src_Ctrl.git ~/GitSrcCtrl
+: 1746726932:0;cd ~/GitSrcCtrl
+: 1746726945:0;ls -a
+: 1746726968:0;nano .gitignore
+: 1746727004:0;git add .
+: 1746727037:0;git commit -m "Added git ignore, pushing to main for first time"
+: 1746727039:0;git push
+: 1746727078:0;code .
+: 1746727574:0;git tag -s 1.0 "Initial Version Release"
+: 1746727674:0;git tag -sa 1.0 "Initial Version Release"
+: 1746727679:0;git tag -s -a 1.0 "Initial Version Release"
+: 1746727699:0;git tag -a 1.0 "Initial Version Release"
+: 1746727708:0;git tag -a "1.0" "Initial Version Release"
+: 1746727826:0;git tag -sa v1.0 -m "Initial Version Release"
+: 1746727934:0;git config --global gpg.format ssh
+: 1746727973:0;grep ~/ "ssh"
+: 1746727980:0;grep ~/ "*ssh*"
+: 1746728037:0;grep "*ssh*" ~/
+: 1746728042:0;grep -r "*ssh*" ~/
+: 1746728069:0;grep -r ".ssh" ~/
+: 1746728108:0;ls ~/
+: 1746728113:0;ls -a ~/
+: 1746728121:0;ls -a ~/.ssh
+: 1746728295:0;git config --global user.signingkey ~/.ssh/id_ed25519.pub
+: 1746728626:0;git tag -sa v1.0 -m "Initial Version Release"
+: 1746728881:0;git checkout --help
+: 1746729227:0;git checkout -b "develop"
+: 1746729240:0;code .
+: 1746729778:0;clear
+: 1746729787:0;git add .
+: 1746729807:0;git commit -m "Commiting md file to dev branch"
+: 1746729809:0;git push
+: 1746729833:0;git push --set-upstream origin develop
+: 1746739236:0;git --help
+: 1746739269:0;git -help
+: 1746739275:0;git -h
+: 1746739280:0;git -help
+: 1746739285:0;git --h
+: 1746739294:0;git -h
+: 1746739298:0;git -help
+: 1746752295:0;clear
+: 1746752302:0;exit
+: 1746796642:0;cd ~/ | ls -a
+: 1746796657:0;cd ~/ && ls -a
+: 1746796667:0;cd ./GitSrcCtrl
+: 1746796670:0;clear
+: 1746796672:0;code .
+: 1746797075:0;git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+: 1746797121:0;code .
+: 1746804823:0;cd ../GitSrcCtrl
+: 1746804826:0;clear
+: 1746804835:0;git branch
+: 1746804883:0;git log --oneline --graph --decorate --all
+: 1746805575:0;git checkout main
+: 1746805597:0;git checkout -b "hotfixes"
+: 1746805840:0;git add .
+: 1746805846:0;git commit -m "Severe bug fixed, hotfix"
+: 1746806050:0;git push --set-upstream origin hotfixes
+: 1746806099:0;clear
+: 1746806542:0;git checkout master
+: 1746806693:0;git branch
+: 1746806716:0;git checkout main
+: 1746806733:0;git merge hotfixes
+: 1746806768:0;git tag -a v1.1 -m "Hotfix release v1.1"
+: 1746806776:0;git push
+: 1746806798:0;git checkout develop
+: 1746807161:0;git checkout -b features-merge_vs_pull_vs_rebase
+: 1746807378:0;git add .
+: 1746807402:0;git commit "Added initial table explaining merge vs pull vs rebase"
+: 1746807412:0;git commit -m "Added initial table explaining merge vs pull vs rebase"
+: 1746807427:0;git add .
+: 1746807429:0;git commit -m "Added initial table explaining merge vs pull vs rebase"
+: 1746807453:0;git push --set-upstream origin features-merge_vs_pull_vs_rebase
+: 1746807496:0;git add .
+: 1746807518:0;git commit -m "Updated table with pull details"
+: 1746807521:0;git push
+: 1746807537:0;git checkout develop
+: 1746807842:0;git merge hotfixes
+: 1746808165:0;git branch main
+: 1746808173:0;git checkout main
+: 1746808429:0;git checkout develop
+: 1746808474:0;git push "I am pushing 2 ocmmits to dev, were both of these madfe by merge"
+: 1746808496:0;git push
+: 1746808597:0;git checkout features-merge_vs_pull_vs_rebase
+: 1746808636:0;clear
+: 1746809036:0;git checkout develop
+: 1746809055:0;git pull origin develop
+: 1746809070:0;git checkout features-merge_vs_pull_vs_rebase
+: 1746816734:0;terminal-parrot
+: 1746817435:0;git checkout develop
+: 1746817441:0;git pull origin develop
+: 1746817535:0;git pull origin features-merge_vs_pull_vs_rebase
+: 1746817561:0;git checkout features-merge_vs_pull_vs_rebase
+: 1746817912:0;git checkout -b "feature-hidden_cost_of_merge"
+: 1746817943:0;git add .
+: 1746817962:0;git commit -m "Added info on merging without destroying history"
+: 1746818011:0;git push --set-upstream origin feature-hidden_cost_of_merge
+: 1746818181:0;git branch -d
+: 1746818189:0;git branch -d feature-hidden_cost_of_merge
+: 1746818206:0;git checkout main
+: 1746818211:0;git branch -d feature-hidden_cost_of_merge
+: 1746818366:0;git push origin --delete feature-hidden_cost_of_merge
+: 1746818403:0;git checkout develop
+: 1746818450:0;git branch -d feature-hidden_cost_of_merge
+: 1746818497:0;git pull
+: 1746818501:0;git branch -d feature-hidden_cost_of_merge
+: 1746818510:0;git checkout -b "feature-hidden_cost_of_merge"
+: 1746818540:0;git add .
+: 1746818589:0;git commit -m "Added feature about merging while preserving history. this branch DOES include hotfix"
+: 1746818593:0;git push
+: 1746818663:0;git config --global push.autoSetupRemote true
+: 1746818671:0;git push
+: 1746818685:0;git checkout develop
+: 1746818787:0;git merge --no-ff features-merge_vs_pull_vs_rebase
+: 1746818981:0;git add .
+: 1746819013:0;git commit -m "Merged feature merge_vs_pull_vs_rebase into develop"
+: 1746819027:0;git push
+: 1746819133:0;git merge --no-ff feature-hidden_cost_of_merge
+: 1746819286:0;git checkout main
+: 1746819306:0;git checkout develop
+: 1746819311:0;git checkout main
+: 1746819366:0;git merge --no-ff develop -m "Merging develop with main"
+: 1746819372:0;git push
+: 1746819465:0;git tag -sa v2.0 -m "merged all features from develop to main"
+: 1746819492:0;git push
+: 1746819577:0;git push --tags
+: 1746820009:0;git branch
+: 1746820059:0;git pull
+: 1746820075:0;git checkout develop
+: 1746820128:0;git merge --no-ff main -m "Although Identical, I want to pull deveopment from main again, since we did have an official release"
+: 1746820320:0;git checkout main
+: 1746820480:0;git checkout hotfix
+: 1746820489:0;git checkout hotfixes
+: 1746820735:0;git fetch origin
+: 1746821230:0;clear
+: 1746821237:0;git merge origin/main --no-ff -m \
+"Merge main into hotfixes to sync with latest production changes"
+: 1746821357:0;git status
+: 1746821370:0;git push
+: 1746821560:0;git checkout main
+: 1746821619:0;git merge hotfixes --no-ff -m "Merge hotfix 2 into main"
+: 1746821624:0;git push
+: 1746821672:0;git checkout develop
+: 1746821713:0;git merge hotfixes --no-ff -m "Merge hotfix 2 into dev, trying not to remove secret message"
+: 1746822850:0;git checkout main
+: 1746877327:0;nano ~/.bash_history
+: 1746877341:0;nano ~/.zsh_history
+: 1746877424:0;cp ~/.zsh_history ~/GitSrcCtrl/cmd_hist
+: 1746877466:0;git checkout develop
+: 1746877471:0;cp ~/.zsh_history ~/GitSrcCtrl/cmd_hist
