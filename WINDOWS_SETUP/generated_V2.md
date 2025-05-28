@@ -122,7 +122,7 @@ You should see something like `git version 2.xx.x.windows.x`
 
 <!-- * GitLab Workflow -->
 
-* Git Graph v3
+* [Git Graph v3](https://marketplace.visualstudio.com/items?itemName=Gxl.git-graph-3)
 
 **Step 4:** Set Git as the source control provider:
 
